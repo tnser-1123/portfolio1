@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/image/text.png">
+  <title>梅野のポートフォリオ</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/pote.css">
+  <script src="jquery-3.5.1.min.js"></script>
+
+</head>
+<body>
+  <div class="start">
+    <img src="/image/start.png" class="start-image" alt="">
+  </div>
+  <!--header-->
+  <header class="header" id="js-header">
+    <div class="header-nav">
+      <div class="headerLogo">
+        <img src="/image/start.png" class="header-logo" alt="">
+      </div>
+      <div class="headerNavList">
+          <a href="#about" class="navLink">ABOUT</a>
+          <a href="#skill" class="navLink">SKILLS</a>
+          <a href="#nextskill" class="navLink">NEXT SKILLS</a>
+          <a href="#service" class="navLink">SERVICE</a>
+          <a href="#contact" class="navLink">CONTACT</a>
+      </div>
+    </div>
+    <!---------nav---------->
+    <div class="sp-nav">
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+      <div class="spinner diagonal part-1"></div>
+      <div class="spinner horizontal"></div>
+      <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+      <ul class="sidebarMenuInner">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skill">SKILLS</a></li>
+        <li><a href="nextskill">NEXT SKILLS</a></li>
+        <li><a href="service">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+    </div>
+  </header>
+
+  <!--about-->
+  <div class="about" id="about">
+    <h2 class="name" >梅野天翔と申します。</h2>
+    <p class="contents" >2001年11月23日 長崎県対馬市で生まれました。</p>
+    <p class="contents" >趣味はサッカー、スポーツ観戦、筋トレ、映画鑑賞、読書、自己投資などです。</p>
+    <p class="contents" >最近は1日10時間以上プログラミング学習しており、すごく充実した日々を過ごせていいます。</p>
+    <p class="contents" >しっかりと継続して技術を伸ばしつつ、様々な仕事に挑戦していきたいと思います。</p>
+    <p class="contents" >是非、よろしくお願致します。</p>
+  </div>
+  <!--skill-->
+  <div class="skill" id="skill">
+    <h2 class="section-title">SKILLS</h2>
+    <div class="skill-list fadeIn">
+      <div class="top">
+        <div class="skillImage"><img src="/image/html.png" class="skill-img" alt=""><p>HTML</p></div>
+      <div class="skillImage"><img src="/image/css.png" class="skill-img" alt=""><p>CSS</p></div>
+      <div class="skillImage"><img src="/image/bootstrap.png" class="skill-img" alt=""><p>BootStrap</p></div>
+      </div>
+      <div class="second">
+        <div class="skillImage"><img src="/image/jquery.png" class="skill-img" alt=""><p>jQuery</p></div>
+      <div class="skillImage"><img src="/image/javascript.png" class="skill-img" alt=""><p>JavaScript</p></div>
+      </div>
+    </div>
+    <h3 class="skill-title2" id="nextskill">NEXT SKILLS</h3>
+    <div class="skill-list fadein">
+      <div class="second">
+        <div class="skillImage"><img src="/image/ruby.png" class="skill-img" alt=""><p>Ruby</p></div>
+      <div class="skillImage"><img src="/image/rails.png" class="skill-img2" alt=""><p>Rails</p></div>
+      </div>
+    </div>
+  </div>
+<!--services-->
+<div class="services" id="service">
+  <h2 class="section-title">SERVICES</h2>
+  <div class="service-list">
+    <div class="skillImage2"><img src="/image/confident.png" class="service-img" alt=""><p>代行コーディング</p></div>
+    <div class="skillImage2"><img src="/image/responsive.png" class="service-img2" alt=""><p>レスポンシブ化</p></div>
+    <div class="skillImage2"><img src="/image/LP.png" class="service-img" alt=""><p>LP・HP作成</p></div>
+  </div>
+  <p class="service-content">※是非お問い合わせください</p>
+</div>
+<!--contact-->
+<div class="contact" id="contact">
+  <h2 class="section-title">CONTACT</h2>
+  <p class="contact-p">全て必須項目となっています</p>
+  <form id="js-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScFtRFDrjaX6l8IrKboGEbROvnY4pcCbZhHS3hnWadxGay2Mg/formResponse" method="POST">
+    <dl class="contact-list">
+      <div class="contact-item">
+        <dt class="contact-item-title">
+          <p>お名前</p>
+        </dt>
+        <dd class="contact-item-input" >
+          <input type="text" name="entry.148395613" required placeholder="フルネーム">
+        </dd>
+      </div>
+      <div class="contact-item">
+        <dt class="contact-item-title">
+          <p>フリガナ</p>
+        </dt>
+        <dd class="contact-item-input" >
+          <input type="text" name="entry.160504802" required placeholder="フルネーム">
+        </dd>
+      </div>
+      <div class="contact-item">
+        <dt class="contact-item-title">
+          <p>メールアドレス</p>
+        </dt>
+        <dd class="contact-item-input" >
+          <input type="text" name="emailAddress" required placeholder="email@email.com">
+        </dd>
+      </div>
+      <div class="contact-item">
+        <dt class="contact-item-title">
+          <p>お問い合わせ内容</p>
+        </dt>
+        <dd class="contact-item-input" >
+          <textarea name="entry.761311561" required></textarea>
+        </dd>
+      </div>
+    </dl>
+    <div class="contact-btn">
+      <button class="c-btn -submit" type="submit">送信</button>
+    </div>
+  </form>
+</div>
+
+<!---->
+<div id="content" class="top">
+  <a href="#" id="topBtn" class="tpb">TOP</a>
+</div>
+<!--footer-->
+<div class="footer">
+  <div class="top-container">
+    <img src="/image/footer.png" class="footer-logo" alt="">
+  </div>
+</div>
+<!--script-->
+  <script src="/swiper.min.js"></script>
+  <script src="/pofo.js"></script>
+</body>
+</html>
